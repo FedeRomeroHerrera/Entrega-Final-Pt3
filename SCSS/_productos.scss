@@ -1,0 +1,19 @@
+#productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.prodcontainer {
+    margin-top: 5%;
+     img {
+         height: 150px;
+        width: 100%;
+            p    {
+                text-align: center;
+                margin-top: 5%;
+                font-family: $titulos-font;
+}
+}
+}

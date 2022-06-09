@@ -1,0 +1,251 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/Images/HomeS.svg);
+  background: center cover;
+  background-repeat: no-repeat;
+}
+.main .bk-Image {
+  height: 100VH;
+  width: 100%;
+  z-index: -1;
+}
+.main .bk-Image img {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Italiana", serif;
+  font-size: 2rem;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: "Italiana", serif;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+}
+
+.nav-item {
+  font-family: "Nuosu SIL", serif;
+}
+
+#productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.prodcontainer {
+  margin-top: 5%;
+}
+.prodcontainer img {
+  height: 150px;
+  width: 100%;
+}
+.prodcontainer img p {
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Nuosu SIL", serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 30vh);
+  grid-gap: 7px;
+  margin: 0 15%;
+}
+
+#galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.foto1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: relative;
+}
+
+.foto2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+}
+
+.foto3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  position: relative;
+}
+
+.foto5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+}
+
+.foto6 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  position: relative;
+}
+
+.foto7 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  position: relative;
+}
+
+.foto8 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  position: relative;
+}
+
+/*EFECTO GALERIA*/
+.imagen_galeria {
+  display: block;
+}
+
+.imagen_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.imagen_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.imagen_overlay:hover > * {
+  transform: translateY(0);
+}
+
+.imagen_overlay:hover {
+  opacity: 1;
+}
+
+.image_text {
+  font-family: "Nuosu SIL", serif;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 10%;
+  color: #666;
+}
+
+.form-contenedor {
+  width: 40%;
+}
+
+input {
+  border-radius: 25%;
+  width: 50%;
+}
+
+#contacto img {
+  width: 35%;
+}
+
+.label-cont {
+  margin: 5% 0;
+}
+
+button {
+  border: none;
+  background-color: salmon;
+  border-radius: 20px;
+  height: 40px;
+  width: 120px;
+}
+
+label {
+  font-family: "Nuosu SIL", serif;
+}
+
+h3 {
+  font-family: "Nuosu SIL", serif;
+  font-size: 2rem;
+}
+
+#ig {
+  height: 50px;
+  margin-bottom: 10%;
+}
+
+#fb {
+  height: 50px;
+  margin-bottom: 10%;
+}
+
+/*FOOTER*/
+footer p {
+  text-align: center;
+  margin-top: -8%;
+}
+
+/*MEDIA QUERY*/
+@media (min-width: 650px) {
+  .main {
+    background-image: url(/Images/HomeL.svg);
+    background-size: cover;
+  }
+}
+@media (max-width: 650px) {
+  #fotocontacto {
+    display: none;
+  }
+  .form-contenedor {
+    width: 100%;
+  }
+  #about {
+    flex-direction: column;
+  }
+  #about p {
+    font-size: 1em;
+    line-height: normal;
+    margin: 5% 2%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

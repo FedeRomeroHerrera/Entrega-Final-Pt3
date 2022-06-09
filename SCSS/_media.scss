@@ -1,0 +1,24 @@
+/*MEDIA QUERY*/
+@media (min-width: 650px) {
+    .main {
+        background-image: url(/Images/HomeL.svg);
+        background-size: cover;
+    }
+}
+
+@media (max-width: 650px) {
+    #fotocontacto {
+        display: none;
+    }
+    .form-contenedor {
+        width: 100%;
+    }
+    #about {
+        flex-direction: column;
+    }
+    #about p {
+        font-size: 1em;
+        line-height: normal;
+        margin: 5% 2%;
+    }
+}

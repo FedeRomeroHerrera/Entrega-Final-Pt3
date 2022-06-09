@@ -1,0 +1,25 @@
+/*ABOUT US*/
+.line {
+    border: 1px solid  black;
+    margin: 10% 15%;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 15%;
+}
+
+#about p {
+    text-align: justify;
+    margin: 0 15%;
+    font-family: 'Nuosu SIL', serif;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+#about img {
+    border-radius: 5%;
+    width: 35%;
+}

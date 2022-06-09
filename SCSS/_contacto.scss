@@ -1,0 +1,52 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10%;
+	color: #666;
+}
+
+.form-contenedor {
+    width: 40%;
+}
+
+input {
+    border-radius: 25%;
+    width: 50% ;
+}
+
+#contacto img {
+    width: 35%;
+}
+
+.label-cont {
+    margin: 5% 0;
+    
+}
+
+button {
+    border: none;
+    background-color: salmon;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+}
+
+label {
+    font-family: $titulos-font;
+}
+
+h3 {
+    font-family: $titulos-font;
+    font-size: 2rem;
+}
+
+#ig {
+    height: 50px;
+    margin-bottom: 10%;
+}
+
+#fb {
+    height: 50px;
+    margin-bottom: 10%;
+}
