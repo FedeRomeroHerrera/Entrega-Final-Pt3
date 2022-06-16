@@ -1,18 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+}
+
+/*MAIN*/
 .main {
   height: 100vh;
   width: 100%;
   background-image: url(/Images/HomeS.svg);
   background: center cover;
   background-repeat: no-repeat;
-}
-.main .bk-Image {
-  height: 100VH;
-  width: 100%;
-  z-index: -1;
-}
-.main .bk-Image img {
-  height: 100%;
-  width: 100%;
 }
 
 h1 {
@@ -37,6 +38,19 @@ h2 {
   font-family: "Nuosu SIL", serif;
 }
 
+/* BACKGROUND IMAGE*/
+.bk-Image {
+  height: 100VH;
+  width: 100%;
+  z-index: -1;
+}
+
+.bk-Image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* PRODUCTOS */
 #productos {
   display: flex;
   justify-content: space-around;
@@ -47,14 +61,49 @@ h2 {
 .prodcontainer {
   margin-top: 5%;
 }
+
 .prodcontainer img {
   height: 150px;
   width: 100%;
 }
-.prodcontainer img p {
+
+.prodcontainer p {
   text-align: center;
   margin-top: 5%;
   font-family: "Nuosu SIL", serif;
+}
+
+/*ABOUT US*/
+.line {
+  border: 1px solid black;
+  margin: 10% 15%;
+}
+
+#about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 15%;
+}
+
+#about p {
+  text-align: justify;
+  margin: 0 15%;
+  font-family: "Nuosu SIL", serif;
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+#about img {
+  border-radius: 5%;
+  width: 35%;
+}
+
+/*GALERIA*/
+.galeria-titulo {
+  text-align: center;
+  font-size: 4em;
+  margin-bottom: 7%;
 }
 
 .grid-container {
@@ -166,6 +215,7 @@ h2 {
   font-family: "Nuosu SIL", serif;
 }
 
+/*CONTACTO*/
 form {
   display: flex;
   justify-content: space-around;
@@ -206,16 +256,18 @@ label {
 h3 {
   font-family: "Nuosu SIL", serif;
   font-size: 2rem;
+  text-align: center;
+  margin-top: 10%;
 }
 
 #ig {
   height: 50px;
-  margin-bottom: 10%;
+  filter: drop-shadow(16px 16px 20px black);
 }
 
 #fb {
   height: 50px;
-  margin-bottom: 10%;
+  filter: drop-shadow(16px 16px 20px black);
 }
 
 /*FOOTER*/

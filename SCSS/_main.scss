@@ -1,21 +1,11 @@
-
+/*MAIN*/
 .main {
     height: 100vh;
     width: 100%;
     background-image: url(/Images/HomeS.svg);
     background: center cover;
     background-repeat: no-repeat;
-        .bk-Image {
-        height: 100VH;
-        width: 100%;
-        z-index: -1;
-            img {
-                    height: 100%;
-                    width: 100%;  
-            }
 }
-}
-
 
 h1 {
     text-align: center;
@@ -36,5 +26,5 @@ h2 {
 }
 
 .nav-item {
-    font-family: $titulos-font;
+    font-family: 'Nuosu SIL', serif;
 }

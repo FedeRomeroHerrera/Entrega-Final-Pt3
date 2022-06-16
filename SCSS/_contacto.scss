@@ -1,3 +1,5 @@
+@import 'mixin';
+/*CONTACTO*/
 form {
     display: flex;
     justify-content: space-around;
@@ -33,20 +35,23 @@ button {
 }
 
 label {
-    font-family: $titulos-font;
+    font-family: 'Nuosu SIL', serif;
 }
 
 h3 {
-    font-family: $titulos-font;
+    font-family: 'Nuosu SIL', serif;
     font-size: 2rem;
+    text-align: center;
+    margin-top: 10%;
 }
 
 #ig {
-    height: 50px;
-    margin-bottom: 10%;
+   @include red-social;
+  
 }
 
 #fb {
-    height: 50px;
-    margin-bottom: 10%;
+    @include red-social; 
+
 }
+
