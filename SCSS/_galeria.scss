@@ -3,7 +3,9 @@
 .galeria-titulo {
     text-align: center;
     font-size: 4em;
+    margin-top: -5%;
     margin-bottom: 7%;
+    font-family: 'Italiana', serif;
 }
 
 .grid-container {
@@ -109,5 +111,8 @@
 
 .image_text {
     font-family: 'Nuosu SIL', serif;
+        p {
+            font-family: 'Nuosu SIL', serif;
+        }
    
 }

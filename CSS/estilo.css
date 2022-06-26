@@ -12,14 +12,14 @@ body {
   height: 100vh;
   width: 100%;
   background-image: url(/Images/HomeS.svg);
-  background: center cover;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 h1 {
   text-align: center;
   font-family: "Italiana", serif;
-  font-size: 2rem;
+  font-size: 3rem;
   position: absolute;
   top: 9%;
   left: 50%;
@@ -27,15 +27,30 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: "Italiana", serif;
   position: absolute;
   top: 12%;
-  left: 50%;
+  left: 45%;
 }
 
 .nav-item {
   font-family: "Nuosu SIL", serif;
+  margin: 5%;
+}
+
+.navbar-toggler {
+  outline: none;
+  border: none;
+  margin-left: -7%;
+}
+
+#navbarNavDropdown li {
+  background-color: rgba(237, 237, 237, 0.5);
+  width: 100px;
+  border-radius: 25px;
+  margin-top: 5px;
+  text-align: center;
 }
 
 /* BACKGROUND IMAGE*/
@@ -103,7 +118,9 @@ h2 {
 .galeria-titulo {
   text-align: center;
   font-size: 4em;
+  margin-top: -5%;
   margin-bottom: 7%;
+  font-family: "Italiana", serif;
 }
 
 .grid-container {
@@ -214,6 +231,9 @@ h2 {
 .image_text {
   font-family: "Nuosu SIL", serif;
 }
+.image_text p {
+  font-family: "Nuosu SIL", serif;
+}
 
 /*CONTACTO*/
 form {
@@ -260,14 +280,19 @@ h3 {
   margin-top: 10%;
 }
 
-#ig {
-  height: 50px;
-  filter: drop-shadow(16px 16px 20px black);
+.redes {
+  display: flex;
+  justify-content: space-around;
 }
-
-#fb {
+.redes a {
+  width: 50px;
   height: 50px;
-  filter: drop-shadow(16px 16px 20px black);
+}
+.redes a #ig {
+  width: 50px;
+}
+.redes a #fb {
+  width: 50px;
 }
 
 /*FOOTER*/
@@ -297,6 +322,50 @@ footer p {
     font-size: 1em;
     line-height: normal;
     margin: 5% 2%;
+  }
+  .foto1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+  }
+  .foto2 {
+    display: none;
+  }
+  .foto3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+  }
+  .foto5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 2;
+    position: relative;
+  }
+  .foto6 {
+    display: none;
+  }
+  .foto7 {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 2;
+    position: relative;
+  }
+  .foto8 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    position: relative;
+  }
+  .galeria-titulo {
+    font-size: 2em;
   }
 }
 

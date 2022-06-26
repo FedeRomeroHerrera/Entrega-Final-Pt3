@@ -21,4 +21,49 @@
         line-height: normal;
         margin: 5% 2%;
     }
+    .foto1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        position: relative;
+    }
+    .foto2 {
+        display: none;
+    }
+    .foto3 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        position: relative;
+    }
+    .foto5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 2;
+        position: relative;
+    }
+    .foto6 {
+        display: none;
+    }
+    .foto7 {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 2;
+        position: relative;
+    }
+    .foto8 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        position: relative;
+    }
+    .galeria-titulo {
+        font-size: 2em;
+    }
+    
 }
