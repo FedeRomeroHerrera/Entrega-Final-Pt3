@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
     <!-- SEO -->
     <meta name="description" content="Velas de soja - Difusores - Homespray. Modelos exclusivos. Envíos a todo el país.">
     <meta name="keywords" content="Velas de soja. Difusores. Homespray. Fragancias. Velas aromaticas. Decoracion. Centro de mesa. Regalos. Casamiento. Souvenir. Aceite de soja. Frascos velas de soja.">
@@ -20,6 +21,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
+    <!-- REMOVER UKRAINE -->
+    <style type="text/css">.disclaimer { display: none; }</style>
     <title>PAGANA || compañía de velas</title>
 </head>
 <body>
@@ -144,7 +147,7 @@
 <div class="line"></div>
   <section id="contacto">
     <div class="formulario">
-     <form action="">
+     <form action="form.php" method="POST">
        
         <div class="form-contenedor">
        
@@ -152,22 +155,22 @@
 
           <div class="label-cont">
            <label>Nombre</label>
-           <input type="text" class="form-control">
+           <input type="text" name="name" class="form-control">
           </div>
         
         <div class="label-cont">
           <label>Apellido</label>
-          <input type="text" class="form-control">
+          <input type="text" name="apellido" class="form-control">
         </div>
      
         <div class="label-cont">
           <label>Email</label>
-          <input type="text" class="form-control">
+          <input type="text" name="email" class="form-control">
         </div>
     
         <div class="label-cont">
          <label for="">Mensaje</label>
-          <input type="text" class="form-control">
+          <input type="text" name="mensaje" class="form-control">
         </div>
 
       <button>ENVIAR</button>

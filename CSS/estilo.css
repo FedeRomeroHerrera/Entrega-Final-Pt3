@@ -7,6 +7,10 @@ body {
   background-color: #ededed;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /*MAIN*/
 .main {
   height: 100vh;
@@ -46,10 +50,12 @@ h2 {
 }
 
 #navbarNavDropdown li {
-  background-color: rgba(237, 237, 237, 0.5);
+  background-color: rgba(237, 237, 237, 0.7);
+  padding: 5px;
   width: 100px;
   border-radius: 25px;
   margin-top: 5px;
+  margin-left: -5px;
   text-align: center;
 }
 
@@ -366,6 +372,12 @@ footer p {
   }
   .galeria-titulo {
     font-size: 2em;
+  }
+  .image_text {
+    font-size: 0.7em;
+  }
+  .grid-container p {
+    display: none;
   }
 }
 
